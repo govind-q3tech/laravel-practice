@@ -1,0 +1,785 @@
+@media only screen and (max-width:1920px) {
+	
+.prod-listview .prod-list{ display:flex; }
+.prod-listview .card-title { text-align: left;}
+.prod-listview .card .price-tag {
+    margin: 15px 0px 15px 0px;
+}
+
+.prod-listview .card-title {
+    min-height: 0;
+}
+.prod-listview .advert-img {
+    width: 30%;
+	justify-content: left;
+}
+
+.prod-listview .prod-lst-dtl{width:70%}
+.prod-listview .card-footer {
+    padding: 8px 10px 8px 10px; margin-top:20px;
+}
+
+.prod-listview span {
+    display: inline!important;
+}	
+.mt115{ margin-top:60px}
+}
+
+
+
+
+ @media only screen and (max-width:1360px) {
+/******* Home page Css Start *******/
+.adpost-info span {
+	display: block;
+	margin: 0px auto 5px auto;
+	text-align: center
+}
+
+/******* Home page Css End *******/
+.payment-summery .packg-name {
+    font-size: 18px;
+}
+header .topsrch-flt {
+    width: 600px;
+}
+.share-dtl-btn .bluebtn {width: 100% !important;}
+.share-dtl-btn {display: inherit;}
+.share-dtl-btn > div {
+    width: 100%;
+}
+.share-dtl-btn .addthis_toolbox {
+    width: 100%;
+    margin-bottom: 7px;
+    text-align: center;
+}
+}
+ @media only screen and (max-width:1240px) {
+/******* Home page Css Start *******/
+	 
+/* Header Css Start */
+header .topsrch-flt {
+	width: 570px;
+}
+/* Header Css End */
+.adpost-info span {
+	display: block;
+	margin: 0px auto 5px auto;
+	text-align: center
+}
+.ads-section .card-title {
+	min-height: 53px;
+}
+
+/******* Home page Css End *******/
+
+
+/******* Detail Page Css Start *******/
+.dtl-price h2 {font-size: 22px;}
+.dtl-head h3 {font-size: 16px;}
+
+/******* Detail Page Css End *******/
+
+
+}
+ @media only screen and (max-width:1199px) {
+/******* Home page Css Start *******/
+	 
+/* Header Css Start */
+header .topsrch-flt {
+	width: 520px;
+}
+/* Header Css End */
+
+.left-panel-menu .category-menu {
+	font-size: 13px;
+}
+.left-panel-menu .nav-link span {
+	font-size: 12px;
+}
+.adpost-info span {
+	display: inline;
+	margin: inherit;
+	text-align: inherit
+}
+.ads-section .card-title {
+	min-height: 53px;
+}
+.adpost-info {
+	display: inherit;
+}
+.adpost-info > div {
+	margin-bottom: 10px;
+}
+.ads-section .card-title h3 {
+	font-size: 16px;
+}
+/******* Home page Css End *******/
+.list-viewarea .adpost-info {
+    display: flex!important;
+}
+.prod-listview .card-text {
+    min-height: 90px;
+}
+
+.prod-listview .adpost-info {
+    display: flex;
+}
+
+header .topsrch-flt {
+    width: 460px;
+}
+.header button{ padding: 11px 8px;}
+}
+ @media only screen and (max-width:1024px) {
+	 
+/******* Home page Css Start *******/
+/* Header Css Start */
+header .topsrch-flt {
+	width: 490px;
+}
+/* Header Css End */	
+
+.slider h1 {
+	margin: 0px 0px 0px 37px;
+	font-size: 3rem;
+}
+.adpost-info span {
+	display: inline;
+	margin: inherit;
+	text-align: inherit
+}
+
+.dtl-share a i {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+}
+
+/******* Home page Css End *******/
+header .topsrch-flt {
+    width: 400px;
+}
+
+
+
+}
+ @media only screen and (max-width:991px) {
+	 .pt65 {
+    padding-top: 120px;
+}
+.ptb70 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.pt70 {
+	padding-top: 50px;
+}
+.pb70 {
+	padding-bottom: 50px;
+}
+.mtb-70 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.mt-70 {
+	margin-top: 50px;
+}
+.mb-70 {
+	margin-bottom: 50px;
+}	 
+/******* Home page Css Start *******/
+/* Header Css Start */
+.search-btn-mobile {
+	width: 46px;
+	height: 46px;
+	line-height: 46px;
+	background: #ee478c;
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+	border-radius: 4px;
+	position: absolute;
+	right: 10px;
+	top: 9px;
+	transition: 0.3s ease;
+	cursor: pointer;
+}
+.topsrch-flt {
+	display: none;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: 100%;
+	width: 100%!important;
+	padding: 0px;
+	background: #fff;
+	z-index: 9999!important;
+	border-radius: 5px;
+	box-shadow: 0px 0px 16px 0px rgba(1,162,235,0.07);
+}
+header .topuser {
+	padding-right: 50px;
+}
+.topsearch .btn {border-radius: 0px;}
+/* Header Css End */
+
+.slider h1 {
+	padding-left: 100px;
+}
+.left-panel-menu {
+	flex: 0 0 22%;
+	max-width: 22%;
+}
+.rht-advert {
+	flex: 0 0 76%;
+	max-width: 76%;
+}
+.social-link i {
+	width: 30px;
+	height: 30px;
+}
+
+/******* Home page Css End *******/
+/******* Detail Page Css Start *******/
+
+.post-aduser-butn{display:inherit!important; margin-bottom:10px;}
+.dtl-social-link{ margin-bottom:25px;}
+
+.contact-seller > div {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.product-slider .adpost-info {
+    display: inherit;
+}
+.product-slider .owl-nav {top: 33%;}
+
+/******* Detail Page Css End *******/
+/******* Listing Page Css Start *******/
+
+.list-viewarea .adpost-info {display: flex;}
+.prod-listview .card-text {
+    min-height: inherit;
+}
+
+
+.adpost-info {
+    display: flex;
+}
+/******* Listing Page Css End *******/
+
+
+/* Post Ad page Css Start */
+.positads-box { margin: 50px auto 0px auto;}
+.progressbar li::after { width: 85.50%; left: -43%;}
+
+/* Post Ad page Css End */
+
+/*----------Conatct page CSS Start----------*/
+.contact-info-box ul { display: flex; flex-wrap: wrap; }
+.contact-info-box ul li { width: 50%; }
+/*----------Conatct page CSS End----------*/
+
+.rht-advert .notification-list .notification-list_img img {
+    height: auto;
+    width: 60px;
+}
+.share-dtl-btn .addthis_toolbox {
+    width: 98%;
+}
+.share-dtl-btn .bluebtn { width: 100% !important;}
+.share-dtl-btn > div {
+    width: 50%; 
+}
+.share-dtl-btn .addthis_toolbox {
+    margin-bottom: 0px;
+}
+.share-dtl-btn {display: flex !important;}
+}
+ @media only screen and (max-width:767px) {
+.ptb70 {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.pt70 {
+	padding-top: 30px;
+}
+.pb70 {
+	padding-bottom: 30px;
+}
+.mtb-70 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.mt-70 {
+	margin-top: 30px;
+}
+.mb-70 {
+	margin-bottom: 30px;
+}	 
+
+
+
+/******* Home page Css Start *******/
+
+/* Header Css Start */
+.search-btn-mobile {
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    right: 10px;
+    top: 12px;
+}
+header .greebtn, header .bluebtn , header .lrg-whitebtn-bord  {
+	padding: 3px 8px;
+	height: 38px;
+	font-size: 13px;
+}
+
+header .topuser {
+    padding-right: 38px;
+}
+/* Header Css End */
+
+
+.left-panel-menu {
+	display: none
+}
+.rht-advert {
+	flex: 0 0 100%;
+	max-width: 100%;
+}
+/* Mobile Category for Home page Css Start */
+
+.mobile-category ul {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.mobile-category ul li {
+	flex: 0 0 16.66%;
+	height: 120px;
+	background-color: #fff;
+	border: 1px solid #f4f5f6;
+	text-align: center;
+	cursor: pointer;
+	position: relative;
+}
+.mobile-category ul li:hover {
+	background-color: #f2f2f2
+}
+.mobile-category ul li a {
+	color: #000;
+	text-decoration: none
+}
+.mobile-category .item {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 10px;
+}
+.mobile-category .item i {
+	background-color: #f6f6f6;
+	display: flex;
+	border-radius: 100%;
+	width: 60px;
+	height: 60px;
+	left: 0px;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.mobile-category .item .categ-name {
+	min-height: 36px;
+}
+/* Mobile Category for Home page Css End */
+
+footer ul {
+	margin-bottom: 30px;
+}
+.inner-head { margin-top: 60px;}
+.social-link {text-align: left;}
+
+.advert-img img {
+    object-fit: cover;
+    height: 180px;
+}
+
+/******* Home page Css End *******/
+
+
+
+
+#accordion {
+    padding: 21px;
+}
+.flter-btn-mobile{cursor: pointer;}
+.prod-listview .card-text {
+    min-height: inherit;
+}
+
+.prod-listview .list-viewarea .adpost-info{ display: flex!important;}
+.login-box { margin: 50px auto 0px auto;}
+
+/************* Dashboard Page Start *************/
+
+.dashboard .left-panel-menu { display:block;
+   flex: 0 0 100%;
+max-width: 100%; border-right:0px; margin-bottom:25px;
+}
+
+.dashboard .left-panel-menu:after{ display:none}
+
+.dashboard{ display:inherit}
+.dashboard-rght {
+    padding-left: 0px;
+}
+
+/************* Dashboard Page End *************/
+/* My Advert page Css Start */
+
+.myadvert-capt {
+    padding: 15px 15px 0px 15px;
+}
+
+.my-advrt-ft {padding-left: 15px;}
+
+/* My Advert page Css End */
+
+.mt-60 {
+    margin-top: 0px;
+}
+
+.breadcrumb-sec .breadcrumb {
+    font-size: 12px;
+}
+.prod-list{ display:flex; }
+.ads-section .card-title { text-align: left;}
+.ads-section .card .price-tag {
+    margin: 5px 0px 10px 0px;
+}
+
+.ads-section .card-title {
+    min-height: 0;
+}
+.advert-img {
+    width: 35%;
+}
+
+.prod-lst-dtl{width:65%}
+.ads-section .card-footer {
+    padding: 8px 10px 8px 10px;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+/*----------Conatct page CSS Start----------*/
+.contact-info-box ul li { width: 100%; }
+/*----------Conatct page CSS End----------*/
+
+/* Notification Page Css Start */
+
+.notification-ui_dd::after {
+    left: calc(49% - 7px);
+}
+
+.notification-ui_dd{
+    width: 357px!important;
+}
+
+.notification-list_img {
+    width: 58px;
+    height: auto;
+    margin-right: 10px;
+}
+.notification-list .notification-list_feature-img img {
+    margin-left: 5px;
+}
+.notification-list .notification-list_img img {
+    height: auto;
+    width: 90px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+.rht-advert  .notification-list_img {
+    width: 60px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.rht-advert .notification-list .notification-list_feature-img img {
+    height: auto;
+    width: 60px;
+}
+
+/* Notification Page Css End */
+
+.white-box { margin: 30px auto 0px auto;}
+
+/* Payment Process Css start */
+
+.payment-sect .nav-pills .nav-link {
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.payment-sect .nav-item {
+    width: 46%;
+    text-align: center;
+}
+
+.payment-summery {
+    margin-top: 30px;
+}
+
+.payment-sect .nav {
+    padding-top: 20px;
+    margin-bottom: 20px !important;
+}
+
+/* Payment Process Css End */
+
+
+/* Ad Advert Css Start */
+.progressbar li::after {
+    width: 75.51%;
+    left: -39%;
+}
+
+/* Ad Advert Css End */
+
+.dashboard-rght .table-responsive {
+    margin-bottom: 38px;
+}
+
+.chat-area {padding: 20px 15px;}
+}
+ @media only screen and (max-width:575px) {
+	 
+/******* Home page Css Start *******/
+.mobile-category ul li {
+	flex: 0 0 33.33%;
+}
+/*.adpost-info {
+	display: flex;
+}*/
+.app-store span {
+	flex: inherit;
+}
+
+/******* Home page Css End *******/
+
+
+/******* Login page Css Start *******/
+.loginhead { display: inherit;
+    flex-wrap: inherit; padding:0px; text-align:center
+}
+
+.loginhead figure {
+    position: inherit; text-align:center
+}
+
+.form_filds_block {
+    padding-left: 0px;
+}
+
+.user-login {
+    padding: 16px 25px 30px 25px;
+}
+
+.user-login .bord-btn {padding: 8px 10px;}
+
+.reslut-contr{ display:none}
+
+/******* Login page Css End *******/
+
+.sort-option .form-control {
+    height: 38px!important;
+    width: 143px!important;
+	text-overflow: ellipsis;
+}
+
+.adpost-info {
+    display: inherit;
+}
+
+.prod-listview .adpost-info {
+    display: block;
+}
+.ads-section .card-footer > div {
+    white-space: inherit!important;
+    overflow-x: inherit!important;
+    text-overflow: inherit!important;
+}
+.rht-advert  .notification-list_img {
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.rht-advert .notification-list .notification-list_feature-img img {
+    height: auto;
+    width: 80px;
+}
+
+/* Ad Advert Css Start */
+.progressbar li::after {
+    width: 73.51%;
+    left: -38%;
+}
+
+/* Ad Advert Css End */
+
+
+.category-input .form-group {
+    margin-top: -7px;
+    display: flex;
+    align-items: center;
+}
+
+.category-input .form-control { width: 100%;}
+.subscription-head{ display:inherit}
+
+.category-input .form-group {width: 100%;}
+
+.packages-sect .nav-item {
+    width: 90px;
+}
+
+.packages-sect .nav-link {
+    display: block;
+    padding: 0.5rem 0.5rem; 
+}
+.packages-sect .nav-pills .nav-link{ font-size:12px; height:34px;}
+header .topuser {
+    padding-right: 0;
+    width: 100%;
+    justify-content: center;
+    border-top: 1px solid rgba(255,255,255,0.1) !important;
+    margin-top: 10px;
+    padding-top: 6px;
+}
+ .share-dtl-btn > div {
+    width: 50%;
+}
+.posted-img a {
+    margin-bottom: 8px;
+    text-align: center;
+}
+.loged-user {
+    position: absolute;
+    top: 10px;
+    right: 56px;
+}
+
+}
+ @media only screen and (max-width:531px) {
+.contact-seller > div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.copyright {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ft-payment{ margin-top:10px;}
+
+.progressbar li::after {
+    width: 67.51%;
+    left: -36%;
+}
+
+.upload-thumb div {
+    margin-right: auto;
+    margin-left: auto;
+
+
+ }
+ 
+ .post-adsect a, button{ margin-bottom: 5px!important; width: 100%;}
+ .my-advrt-ft { display: block !important; }
+ .my-advrt-ft > div{margin-bottom: 10px;}
+ .my-advrt-ft > div { margin-bottom: 6px;}
+ .posted-img a {
+    width: 45%;
+    margin-bottom: 8px;
+    text-align: center;
+}
+ }
+
+ @media only screen and (max-width:480px) {
+	 
+	 .mt115{ margin-top:118px}
+	/* Header Css Start */ 
+	 .topuser button{ margin-bottom: 4px;}
+/* Header Css End */	 
+
+/******* Home page Css Start *******/
+	 
+.mobile-category ul li {
+	flex: 0 0 50%;
+}
+
+.app-store span {flex: min-content;}
+
+.inner-head {
+    margin-top: 118px;
+}
+
+.category-flter {
+    top: 34vh;
+}
+.dtlpage {
+    margin-top: 118px;
+}
+
+
+
+/******* Home page Css End *******/
+
+.my-advrt-ft ul li {margin: 0px 12px 0px 0px;}
+.progressbar li::after {
+    width: 60.51%;
+    left: -32%;
+}
+
+
+
+}
+
+@media only screen and (max-width:375px) {
+.progressbar li::after {
+    width: 52.51%;
+    left: -29%;
+}
+
+.posted-img a {
+    width: 43%;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+}

@@ -1,0 +1,727 @@
+.plan-payment {
+	box-shadow: 5px 5px 32px 0px rgba(130,130,130,0.15);
+	background: var(--white);
+	padding: 20px;
+	border-radius: 15px;
+	display: inline-block;
+	width: 50%;
+}
+
+.subscribe-sec {
+	display: flex;
+	justify-content: ;
+	justify-content: space-between;
+	margin-top: 35px;
+}
+
+.plan-description {
+	width: 45%;
+	border: 2px dashed var(--border-grey);
+	padding: 25px 30px;
+	border-radius: 15px;
+}
+.subscribe-plan .price-membership {
+	padding: 0;
+	font-size: 2.5rem;
+	line-height: normal;
+	border-bottom: 1px dashed var(--border-grey);
+	padding-bottom: 11px;
+}
+
+.subscribe-plan .list-unstyled {
+	margin-top: 15px !important;
+}
+
+.subscribe-plan .list-unstyled li {
+	padding-bottom: 15px;
+}
+
+.plan-payment h2 {
+	font-size: 1.5rem;
+	padding: 0 0 15px 0;
+	margin: 0 0 20px 0;
+	border-bottom: 1px dashed var(--border-grey);
+}
+
+.card-title {
+	font-size: 1.2rem;
+	font-weight: 600;
+	color: var(--blue);
+	margin-bottom: 15px;
+}
+
+.StripeElement iframe {
+	height: 30px !important;
+	
+}
+
+.help-block{
+	color:#721c24;
+}
+
+
+.ElementsApp input {
+	background-color: #fcfcfc;
+	border: none;
+	display: block;
+	font-family: sans-serif;
+	margin: 0;
+	padding: 6px 12px;
+	width: 100%;
+	font-size: 16px !important;
+	line-height: normal;
+	height: 100%;
+	border: 1px solid #d8d8d8;
+}
+
+.CardNumberField-input-wrapper {
+	background: #fcfcfc;
+}
+
+.CardNumberField-input-wrapper:focus, .ElementsApp input:focus {
+	outline: none;
+	border-color: var(--blue) !important;
+}
+
+.CardField-expiry, .CardField-cvc, .CardNumberField-input-wrapper, .CardBrandIcon-container
+{ height:30px; border: 1px solid #d8d8d8; background-color: #fcfcfc;}
+#card-errors {
+	margin-bottom: 15px; color: red;
+}
+.edit-profile-sec .gap-4{gap: 2rem;}
+.edit-profile-sec .mt-10.btn {
+	margin: 0 0 15px 0;
+}
+.edit-profile-sec .btn-group{margin-top: 35px;}
+.edit-profile-sec h3 {
+	border-bottom: 1px solid var(--grey2);
+	padding: 0 0 11px 0;
+	margin: 0 0 20px 0;
+}
+
+.listing-inner-sec.category-lisitng-page {
+	flex-direction: column;
+}
+
+.category-lisitng-page .featured-listing-sec {
+	width: 100%;
+	padding: 20px;
+	margin-bottom: 25px;
+	background: #f8f8f8;
+}
+.category-lisitng-page .featured-list-grp > h2 {
+	font-size: 1.5rem;
+	padding: 0 0 9px 0;
+	margin: 0 0 14px 0;
+	border-bottom: 1px solid var(--border-grey);
+	width: 100%;
+	display: inline-block;
+	font-weight: 600;
+}
+
+/*.category-lisitng-page ul {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.category-lisitng-page ul li {
+    width: 25%; padding-left:14px;transition: all 0.3s ease; padding-bottom:7px;
+    
+}
+*/
+.category-lisitng-page ul {
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    display: block;
+    flex-wrap: inherit;
+}
+
+.category-lisitng-page ul li {
+    width: auto;
+	padding-left:14px;transition: all 0.3s ease; padding-bottom:7px;
+}
+
+.category-lisitng-page ul li a {
+	font-size: 15px;
+}
+
+.category-lisitng-page ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color:var(--blue); /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+.category-lisitng-page ul li:hover::before{ color:var(--black);}
+
+.business-category-srh, .postcode-srh{ padding-left:0; padding-right:0;}
+.business-category-srh label, .postcode-srh label {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.business-category-srh input[type="text"], .postcode-srh input[type="text"] {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.ui-menu .ui-menu-item-wrapper {
+	padding: 5px 20px 5px 20px;
+	border-top: 1px solid rgba(0,0,0,0.1);
+}
+.ui-widget.ui-widget-content {
+	border: 0;
+	box-shadow: 0px 14px 9px 0px rgba(0,0,0,0.5);
+	border-top: 0;
+
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, 
+.ui-widget-header .ui-state-active, a.ui-button:active, 
+.ui-button:active, .ui-button.ui-state-active:hover {
+	border: 0;
+	color:var(--blue);
+	margin: 0;
+}
+
+footer .custom_select {
+    margin-bottom: 5px;
+    display: inline-block!important;
+    width: 32.50%!important;
+}
+
+.dt-icon .fa-phone {
+    transform: rotate(180deg);
+}
+
+.product_img {
+    display: flex;
+    justify-content: center;
+    height: 335px; align-items: center;
+	overflow: hidden;
+}
+
+.header-shrink {
+    z-index: 999;
+	transition: all 0.3s ease;
+}
+
+
+.featured_listing .rating_pro {
+	border: 1px solid var(--blue);
+	color: var(--blue);
+	font-weight: 600;
+}
+
+/* Opening Table css start */
+
+.opening-table table {
+  border: 0px solid #ccc;
+  border-collapse: collapse;
+  margin: 0 0px 20px 0px;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.opening-table table caption {
+  font-size: 1.5em;
+  margin: .5em 0 .75em;
+}
+
+.opening-table table tr {
+  background-color: #fff;
+  border: 0px solid #ddd;
+  padding: .35em;
+}
+
+.opening-table table th,
+.opening-table table td {
+  padding: .625em;
+  text-align: left; border-top: 0px solid #000!important;
+}
+
+.opening-table table th {
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.dash-head2 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: normal;
+    border-bottom: 1px solid var(--light-grey);
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+.ui-widget-content {
+	max-height: 280px;
+	overflow-y: auto;
+}
+footer .custom_select .dropdown-menu.show {
+	max-height: 180px;
+	overflow-y: auto;
+}
+
+#submit-gallery {
+	width: 100%;
+}
+
+
+
+#submit-gallery p {
+	padding: 5px 5px 5px 10px;
+}
+.category-lisitng-page form {
+	width: 100%;
+	background: #f8f8f8;
+	margin-bottom: 25px;
+}
+.category-lisitng-page form .featured-listing-sec {
+	display: flex;
+	align-items: center;
+	max-width: 477px;
+	width: 100%;
+}
+.category-lisitng-page form .featured-listing-sec .select2-container .select2-selection--single{height: 42px;}
+.category-lisitng-page form .featured-listing-sec .select2-container--default .select2-selection--single .select2-selection__arrow {
+	height: 42px;
+}
+
+.category-lisitng-page form .featured-listing-sec .btn.btn-green.mr-2 {
+	margin-left: 15px;
+	width: auto;
+}
+
+
+.searched-cat a {
+	color: green;
+	font-weight: 600;
+}
+.has-error  {
+	border: 1px solid #ff2000;
+	padding: 15px;
+}
+
+.has-error .select2.select2-container.select2-container--default {
+	width: 100% !important;
+	
+}
+.has-error .help-block {
+	padding-top: 6px;
+	display: inline-block;
+}
+
+.membership{overflow: inherit;}
+.offer-advertise {
+	position: absolute;
+	right: 0px;
+	top: -59px;
+	width: 120px;
+	height: 120px;
+	background: #ff2000;
+	border-radius: 100%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 12px;
+	color: #fff;
+	font-weight: 700;
+	border: 3px solid #d52107;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+
+.category-lisitng-page .featured-list-grp.postcode_listing ul {
+    -webkit-column-count: 8;
+    -moz-column-count: 8;
+    column-count: 8;
+    display: block;
+}
+.category-lisitng-page .featured-list-grp.postcode_listing ul li {
+    width: auto;
+}
+.top-menu li.nav-item{ position:relative;}
+
+.top-menu li .dropdown-menu.show { margin: 0; padding: 0; border-radius: 8px; min-width: auto; width: 155px; box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.2); overflow: hidden; }
+
+.top-menu li .dropdown-menu.show .dropdown-item {
+	padding: 10px 14px;
+	font-size: 13px;
+	border-bottom: 1px dashed rgba(0,0,0,0.1);
+	font-weight: 400;
+}
+.top-menu li .dropdown-menu.show .dropdown-item:last-child { border-bottom: 0; }
+.top-menu li .dropdown-menu.show .dropdown-item:hover {
+	background: var(--green);
+	color: var(--white);
+}
+.top-menu li .dropdown-menu.show .dropdown-item:hover i { color: var(--white);}
+.top-menu li .dropdown-menu.show .dropdown-item span { padding-left: 4px }
+
+.top-menu li .dropdown-toggle::after {
+	top: 1px;
+	position: relative;
+}
+.listing-des .featured-listing-sec.right-panel {
+	width: 100%;
+	padding: 0;
+}
+
+.listing-des .listing-detail {
+	width: 100%;
+	justify-content: space-between;
+}
+
+.listing-des-inner {
+	text-align: center;
+	padding: 40px 30px;
+	width: 48%;
+	box-shadow: 0 0 11px 0 rgba(0,0,0,0.1);
+	background: #fff; 
+}
+.listing-des .detail-section {
+	padding: 40px 0 50px;
+}
+@media only screen and (max-width:1400px) {
+	.product_img {
+    height: 286px;
+}
+	
+	}
+
+@media only screen and (max-width:1250px) {
+	.product_img {
+    height: 316px;
+}
+.product_img img {
+    width: 100%;
+    height: 330px;
+}
+.offer-advertise {
+	width: 115px;
+	height: 115px;
+	padding: 10px;
+	font-size: 13px;
+	line-height: 18px;
+}
+	
+	}
+@media only screen and (max-width:991px) {
+.subscribe-sec {
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+.plan-description {
+	width: 100%;
+	border-radius: 15px;
+	margin-bottom: 40px;
+}
+.plan-payment {
+	width: 100%;
+}
+/*.category-lisitng-page ul li {
+    width: 33%;
+    
+}*/
+
+.category-lisitng-page ul {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+
+}
+.category-lisitng-page ul li {
+    width: auto;
+}
+
+
+
+.offer-advertise{right: 0;}
+.category-lisitng-page .featured-list-grp.postcode_listing ul {
+    -webkit-column-count: 5;
+    -moz-column-count: 5	;
+    column-count: 5;
+   
+}
+
+.top-menu li .dropdown-toggle::after {
+	display:inline-block !important
+}
+.top-menu li .dropdown-menu.show {
+
+	border-radius: 0;
+	min-width: auto;
+	width: 100%;
+	box-shadow: none;
+	background: #2074ae;
+	color: var(--white);
+}
+.top-menu li .dropdown-menu.show .dropdown-item {
+	padding: 10px 19px;
+	font-size: 13px;
+	border-bottom: 1px dashed rgba(255,255,255,0.3);
+	font-weight: 400;
+	color: var(--white);
+}
+.top-menu li.nav-item.show:hover a {
+	color: #fff;
+}
+.nav-item.show > a {
+	background: var(--blue);
+	color: var(--white) !important;
+}
+.header-right{justify-content: flex-end;}
+
+.listing-des .listing-sort {
+width: auto;
+}
+}
+
+@media only screen and (max-width:767px) {
+/*.category-lisitng-page ul li {
+    width: 50%;
+    
+}*/
+
+
+.category-lisitng-page ul {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+
+}
+.category-lisitng-page ul li {
+    width: auto;
+}
+	.product_img {
+    height: 346px;
+}
+.product_img img {
+    width: 100%;
+    height: auto;
+}
+
+.header-right {
+	padding-right: 43px;
+	
+}	
+
+.offer-advertise{
+position: relative;
+top: 20px;
+right: 0;
+margin: auto;
+margin-bottom:40px;
+}
+.membership {
+	background: #fff;
+	margin-bottom:20px;
+	
+}
+.membership-top {
+	background-color: var(--off-white2);
+
+}
+
+.category-lisitng-page .featured-list-grp.postcode_listing ul {
+    -webkit-column-count: 4;
+    -moz-column-count: 4	;
+    column-count: 4;
+   
+}
+.login-user .top-login-signup {
+    right: 93px;
+  
+}
+	
+.listing-des .listing-sort .ft-social {
+position: relative;
+top: 0;
+left: 0;
+right: 0;text-align: center;
+}
+	
+.listing-des .listing-detail {
+	flex-direction: column;
+}
+
+.listing-des-inner {
+	width: 100%;
+margin-bottom: 25px;
+}
+	
+.listing-des .listing-sort .ft-social {
+position: relative !important;
+top: 0 !important;
+left: auto !important;
+right: auto !important;
+text-align: center !important;
+transform: inherit !important;
+}
+	
+	}
+
+
+@media only screen and (max-width:639px) {
+.edit-profile-sec .col-span-6 {
+	grid-column:span 8 / span 12;
+}
+
+.product_img {
+    height: 270px;
+}
+
+}
+
+@media only screen and (max-width:575px) {
+.call {
+    right: 55px;
+}
+.header-inner {
+    flex-direction: inherit;
+}
+.top-login-signup{    margin-right: 46px;     margin-top: -1px;}
+.header-left {
+    width: 132px;
+}
+.login-user .call {
+    right: 63px;
+}
+.login-user .top-login-signup {
+    right: 64px;
+    top: 0;
+}
+.login-user .header-shrink .top-login-signup {
+    top: 0;
+}
+}
+
+@media only screen and (max-width:567px) {
+.product_img {
+    height:auto;
+}
+.category-lisitng-page form .featured-listing-sec {
+	flex-direction: column;
+}
+.category-lisitng-page form .featured-listing-sec .btn.btn-green.mr-2 {
+	margin-top: 10px;
+	margin-left: 0 !important;
+	width: 100%;
+	margin-right: 0 !important;
+}
+
+
+.category-lisitng-page ul {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+
+}
+.category-lisitng-page ul li {
+    width: auto;
+}
+
+.category-lisitng-page .featured-list-grp.postcode_listing ul {
+    -webkit-column-count: 3;
+    -moz-column-count: 3	;
+    column-count: 3;
+   
+}
+
+}
+
+@media only screen and (max-width:399px) {
+/*.category-lisitng-page ul li {
+    width: 100%;
+    
+}*/
+
+
+
+.category-lisitng-page ul li {
+    width: auto;
+}
+
+.category-lisitng-page .featured-list-grp.postcode_listing ul {
+    -webkit-column-count: 2;
+    -moz-column-count: 2	;
+    column-count: 2;
+   
+}
+footer .custom_select {
+    display: inline-block!important;
+    width: 48%!important;
+}	
+	}
+	
+
+
+@media screen and (max-width: 600px) {
+  .opening-table table {
+    border: 0;
+  }
+  
+  .opening-table table th{
+  text-align: left; border-top: 1px solid #000;
+}
+
+  .opening-table table caption {
+    font-size: 1.3em;
+  }
+  
+ .opening-table table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+ .opening-table  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+  
+  .opening-table table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right!important;
+  }
+  
+  .opening-table table td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .opening-table table td:last-child {
+    border-bottom: 0;
+  }
+  
+  .opening-table table tr {
+    border: 1px solid #ddd;
+}
+
+}
+
+/* Opening Table css end */
+@media screen and (min-width: 768px) {
+.mobile_view{ display:none;}
+}
+

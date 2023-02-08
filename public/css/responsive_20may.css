@@ -1,0 +1,414 @@
+@media only screen and (max-width:1600px) {
+.container-full, .mid-section .breadcrumb, .listing-section { padding-left: 30px; padding-right: 30px; }
+.header-left { width: 37% }
+}
+@media only screen and (max-width:1400px) {
+:root { font-size: 95%; }
+h1, h2 { font-size: 3.125rem; }
+.h4, h4 { font-size: 1.25rem; line-height: 1.875rem; }
+.top-menu li.nav-item { padding: 0 7px; }
+.top-login-signup { margin-right: 14px; }
+/*Banner*/
+.banner-heading h1 { font-size: 4.5rem; }
+.banner-heading h2 { font-size: 3rem; }
+}
+ @media only screen and (max-width:1199px) {
+:root { font-size: 90%; }
+.btn { padding: 0 12px; }
+.header-search { padding-left: 15px; }
+.form-control { padding-left: 10px; }
+.logo img { max-width: 130px; }
+.container-full { padding-left: 15px; padding-right: 15px; }
+.logo img { max-width: 140px; }
+.top-menu li.nav-item { padding: 0; }
+/*Banner*/
+.banner-search-blk { padding-top: 150px; }
+/*Directory*/
+.fea-icon { width: 65px; }
+.fea-col { padding-left: 80px; }
+.fea-col h2 br { display: none; }
+/*Get Listed*/
+.get_listing_img { width: 70%; }
+/*deatil page css start*/
+.dt-content h2 { font-size: 2rem; line-height: 2rem; }
+.dt-icon i { top: 8px; }
+.git-head span { font-size: 1.60rem; }
+/*deatil page css End*/
+
+
+
+/*Featured listing Page css Start*/
+.listing-filter { max-width: 250px; }
+.featured-listing-sec.right-panel { width: calc(100% - 250px); padding-left: 30px; }
+.listing-pic { width: 140px; }
+.listing-info { padding-left: 15px; width: calc(100% - 140px); }
+.listing-contact { width: 112px; }
+.listing-heading h1 { font-size: 2.1rem; }
+/*Featured listing Page css End*/
+
+/*My Account Dashboard  Page CSS Start*/
+.dashborad-rightsider {
+	width: calc(100% - 290px);
+	padding: 25px;
+}
+.dashborad-leftsider {
+    margin-right: 30px;
+}
+/*My Account Dashboard  Page CSS Start*/
+
+}
+ @media only screen and (max-width:991px) {
+:root { font-size: 85%; }
+.btn { padding: 0 10px; }
+.padB80 { padding-bottom: 50px; }
+.padT80 { padding-top: 50px; }
+.header-right .navbar-toggler i { color: var(--blue); font-size: 25px; }
+.header-right .navbar .navbar-nav li.nav-item a.nav-link::after { display: none; }
+.header-right .navbar .navbar-nav li.nav-item:hover, .header-right .navbar .navbar-nav li.nav-item.active { background: var(--blue); color: var(--white); }
+.top-menu li.nav-item a:hover, .top-menu li.active a { color: var(--white); }
+.header-right .navbar-toggler[aria-expanded="true"] .fa-bars::before { content: "\f00d"; transition: 0.3s ease }
+.header-left { width: 50%; }
+.header-right { width: 48%; justify-content: right; padding-right: 46px; }
+.header-right .navbar-toggler { position: fixed; right: 15px; top: 28px; }
+.header-right .navbar { width: 100%; position: absolute; left: 0; right: 0; top: 82px; background: #fff; box-shadow: 0px 10px 7px 0px rgba(0,0,0,0.1); padding: 0; }
+.header-shrink .header-right .navbar { top: 67px; }
+.top-menu li.nav-item a { padding: 12px 10px; }
+.header { background: var(--white); }
+.header-shrink .header-right .navbar-toggler { top: 19px; }
+/*Banner*/
+.banner-search-blk { padding-top: 130px; padding-left: 0; }
+.banner-heading h1 { font-size: 3.8rem; }
+.banner-heading h2 { font-size: 2.5rem; }
+.banner-search-panel { margin-top: 35px; }
+.main-banner { min-height: 582px; }
+.banner-search-btn .btn, .business-category-srh, .postcode-srh { height: 80px; }
+/*Directory*/
+.dir-features { flex-direction: column; flex-direction: column-reverse; }
+.dir-features-inner { width: 100%; }
+.line { border: 0; padding-right: 0; }
+.man-pic { margin-top:15px;}
+
+/*Add Listing*/
+.membership-top br { display: none; }
+.membership ul { display: flex; flex-wrap: wrap; }
+.membership ul li { max-width: 50%; padding-right: 15px; flex: 0 0 50%; }
+.membership { margin-top: 0; height: auto; }
+.membership-outer { height: auto; }
+.padT50 { padding-top: 30px; }
+.padB50 { padding-bottom: 30px; }
+
+/*deatil page css start*/
+.dt-col-1, .dt-col-2 { max-width: 100%; flex: 0 0 100%; -ms-flex: 0 0 100%; }
+.dt-col-2 { margin: 30px 0; }
+.dt-img { margin-bottom: 0; }
+.detail-tab.nav-tabs { justify-content: space-between; }
+/*deatil page css End*/
+
+/*My Account Dashboard  Page CSS Start*/
+.dashboard-col .product_item i img { width: 46px; }
+.dashboard-col .product_item i { width: 90px; top: -37px; height: 90px; line-height: 90px; text-align: center; }
+.dashboard-col h2 { font-size: 1.4rem; margin-top: -20px; padding: 16px 0 0 0px; }
+.login-user .header-right { width: auto; }
+.dashborad-leftsider {
+	margin-right: 20px;
+	width: 235px;
+}
+.dashborad-rightsider {
+	width: calc(100% - 255px);
+}
+/*My Account Dashboard  Page CSS End*/
+
+/*Images Gallery page css start*/
+
+.upload-imgs ul li { width: 25%; }
+/*Images Gallery page css End*/
+
+
+/*Featured listing Page css Start*/
+.listing-filter { max-width: 210px; }
+.featured-listing-sec.right-panel { width: calc(100% - 210px); padding-left: 20px; }
+.sponsored-tag { font-size: 13px; padding: 2px 6px; }
+.featured-listing { flex-direction: column; padding: 13px; }
+.listing-contact { width: 100%; }
+.listing-contact .contact_for_product { display: flex; justify-content: space-between; }
+.listing-contact .contact_for_product li { margin: 10px 1% 0 0; width: 24%; }
+.listing-detail { width: 100%; }
+.listing-pic { width: 110px; }
+.listing-info { width: calc(100% - 110px); }
+.listing-search-left { width: 64.5%; }
+.listing-sort { width: 31%; }
+/*Featured listing Page css End*/
+
+/*About us Page CSS Start*/
+.img-with-bg.right-col {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+.img-with-bg {
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+.about-page .col_left_text {
+	padding-top: 0;
+}
+.our-mission-cont {
+	padding-top: 0;
+}
+.about-page .our-mission-section {
+	padding-top: 47px;
+}
+.heading_block h2{ padding-bottom:30px;}
+/*About us Page CSS End*/
+}
+ @media only screen and (max-width:767px) {
+h1, h2 { font-size: 2.25rem; }
+.search-field { display: none; position: absolute; left: 0; right: 0; margin: 0; top: 100%; width: 100%; padding: 0 27px 10px 15px; background: #fff; }
+.search-btn-mobile { width: 32px; height: 32px; line-height: 31px; background: var(--green); text-align: center; font-size: 12px; color: #fff; border-radius: 4px; position: absolute; right: 60px; top: 27px; transition: 0.3s ease; cursor: pointer; }
+.header-search { position: static; }
+.phone-num { display: none; }
+.header-right { padding-right: 90px; width: auto }
+.call a { line-height: 28px; height: 32px; }
+.header-left { width: auto; }
+.header-shrink .search-btn-mobile { top: 18px; }
+.header-shrink .header-right .navbar-toggler { top: 18px; }
+.search-btn { right: 22px; }
+.header-right .navbar-toggler { top: 27px; right: 6px; }
+/*Banner*/
+.banner-heading h1 { font-size: 3.1rem; }
+.banner-heading h2 { font-size: 2.1rem; }
+/*Get Listed*/
+.get_listing_img { display: none; }
+/*deatil page css start*/
+.dt-img { max-width: 100%; flex: 0 0 100%; -ms-flex: 0 0 100%; margin-bottom: 30px; }
+.dt-content { max-width: 100%; flex: 0 0 100%; -ms-flex: 0 0 100%; padding-left: 0; margin-bottom: 0; }
+.dt-col-2 { margin: 15px 0; }
+.git-head { margin-top: 10px; }
+.git-head span { font-size: 1.5rem; }
+/*deatil page css End*/
+
+
+/*My Account Dashboard  Page CSS Start*/
+.dashboard-col .product_item i img { width: 40px; }
+.dashboard-col .product_item i { width: auto; top: 0; height: auto; line-height: auto; text-align: center; background: transparent; box-shadow: none; }
+.dashboard-col h2 { font-size: 1.4rem; margin-top: 0; padding: 16px 0 0 0px; }
+.dashboard-col { margin-bottom: 30px; }
+.dashboard-profile { margin-top: 40px; }
+.dashboard-col a:hover .product_item i img { filter: invert(100%) sepia(0%) saturate(7493%) hue-rotate(183deg) brightness(96%) contrast(104%) }
+.sec_heading h2 span::after, .sec_heading h1 span::after { width: 116px; }
+.profile-dropdown .dropdown-menu.show { width: 160px; }
+.login-user .top-login-signup { position: absolute; top: 24px; right: 148px; width: auto; }
+.login-user .search-btn-mobile { right: 52px; }
+.login-user .call { right: 93px }
+.login-user .mid-section { padding-top: 55px; }
+.login-user .header-shrink .top-login-signup { top: 13px; }
+.dashborad-leftsider {
+	margin: 0 0 15px 0;
+	width: 100%;
+	background: var(--blue);
+padding: 20px;
+}
+.dashborad-rightsider {
+	width: 100%;
+	padding: 20px;
+}
+.dashborad-leftsider .nav-icon{left: 27px;}
+.myac {
+	display: block;
+	position: absolute;
+	left: 47px;
+	top: -1px;
+	font-size: 15px;
+	color: var(--white);
+	font-weight: 500;
+	white-space: nowrap;
+}
+/*My Account Dashboard  Page CSS End*/
+
+/*Add Listing Form  Page CSS Start*/
+.add-listing.form-sec { padding: 30px; }
+.form-group label.lbl { font-size: 14px }
+.dash-heading h1 { font-size: 1.6rem; padding-right: 45px; }
+.add-listing.form-sec .form-group { margin-bottom: 20px; }
+.back i { display: block; }
+.back span { display: none; }
+.back .btn i { line-height: 36px; }
+.back .btn { width: 36px; height: 36px; line-height: 36px; }
+/*Add Listing Form  Page CSS End*/
+
+
+/*Images Gallery page css start*/
+.upload-imgs { margin-top: 30px; }
+.upload-imgs ul li { width: 33.333%; }
+.upload-imgs ul li img { padding: 5px; }
+/*Images Gallery page css End*/
+
+/*Featured listing Page css Start*/
+.listing-search-main { flex-direction: column; }
+.listing-search-left { width: 100%; margin-bottom: 15px; }
+.listing-sort { width: 100%; }
+.listing-heading h1 { font-size: 1.8rem; }
+.featured-listing-sec.right-panel { width: 100%; padding-left: 0; margin-top: 30px; }
+.featured-listing { padding: 10px; margin-bottom: 30px; }
+.listing-inner-sec { flex-direction: column; }
+.listing-filter { max-width: 100%; position: relative; }
+/*Featured listing Page css End*/
+
+
+
+/*************Filter mobile-menu-start***************/
+.menuImage { display: block; }
+.iphon_navigation { background: var(--white); border-top: medium none; bottom: 0; display: block!important; left: -300px; overflow-y: auto; margin: 0; position: fixed; text-shadow: none; top: 0; transition: all 0.3s ease; -moz-transition: all 0.3s ease; -webkit-transition: all 0.3s ease; width: 280px; z-index: 9999; padding: 0px 0; box-shadow: 0px 13px 11px 6px rgba(0,0,0,0.5); }
+.nav-open { left: 0!important }
+body.scroll-hidden { overflow: hidden; position: fixed; width: 100%; height: 100%; }
+.nav-icon { cursor: pointer; display: block; height: 24px; margin: 0; position: absolute; right: 12px; top: 9px; transition: all 0.3s ease; -moz-transition: all 0.3s ease; -webkit-transition: all 0.3s ease; width: 32px; z-index: 100; }
+.nav-icon span { background: var(--white); display: block; height: 3px; left: 0; opacity: 1; position: absolute; width: 100%; transform: rotate(0deg); -moz-transform: rotate(0deg); -webkit-transform: rotate(0deg); transition: all 0.2s ease; -moz-transition: all 0.2s ease; -webkit-transition: all 0.2s ease; transform-origin: left center 0; -moz-transform-origin: left center 0; -webkit-transform-origin: left center 0; }
+.nav-icon span:nth-child(1) { top: 0; }
+.nav-icon span:nth-child(2) { top: 10px; }
+.nav-icon span:nth-child(3) { top: 20px; }
+.scroll-hidden .nav-icon { top: 0px; right: inherit; background: var(--blue); height: 31px; left: 280px; z-index: 99999; }
+.scroll-hidden .nav-icon span:nth-child(1) { transform: rotate(45deg); -moz-transform: rotate(45deg); -webkit-transform: rotate(45deg); top: 2px; background: var(--white); left: 4px; }
+.scroll-hidden .nav-icon span:nth-child(2) { opacity: 0; width: 0; }
+.scroll-hidden .nav-icon span:nth-child(3) { transform: rotate(-45deg); -moz-transform: rotate(-45deg); -webkit-transform: rotate(-45deg); top: 25px; background: var(--white); left: 4px; }
+body.scroll-hidden::after { position: absolute; left: 0; right: 0; top: 0; bottom: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); content: ''; z-index: 101; }
+.scroll-hidden .listing-filter { position: static; }
+.scroll-hidden .container { position: static; }
+/*************Filter mobile-menu-end***************/
+
+
+/*About us Page CSS Start*/
+.our_aim_hd .img-with-bg::after {
+	display: none;
+}
+.img-with-bg img {
+	width: 100%;
+	border: solid 3px var(--blue);
+}
+.img-with-bg.right-col::after , .img-with-bg::after{
+	display: none;
+}
+.img-with-bg.right-col {
+ padding:0 0 25px 0;
+ 
+}
+
+.heading_block h2 {
+	font-size: 2.0rem;
+	margin: 0; padding-bottom:20px;
+}
+.img-with-bg {
+ padding:25px 0;
+}
+.our-story-quote {
+	padding-bottom: 0 !important;
+}
+.about-page .our-mission-section {
+	padding-top: 20px;
+}
+.list-with-check li{padding-left: 30px;}
+.our-mission-section .col_left_text {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+/*About us Page CSS End*/
+
+
+}
+ @media only screen and (max-width:575px) {
+p { line-height: 25px; font-size: 15px; }
+.header-right .navbar, .header-shrink .header-right .navbar { top: 46px; }
+.call { position: absolute; right: 105px; }
+.call, .search-btn-mobile, .header-right .navbar-toggler { top: 7px; }
+.header-shrink .call, .header-shrink .search-btn-mobile, .header-shrink .header-right .navbar-toggler { top: 7px; }
+.header-inner { flex-direction: column; }
+.header { padding-top: 10px; padding-bottom: 10px; }
+.logo img { max-width: 111px; }
+.header-right { padding-right: 0; }
+.header-right .navbar-toggler { right: 10px; }
+.top-login-signup { margin-right: 0; text-align: center; width: 100%; justify-content: center; padding-top: 5px; border-top: 1px solid var(--light-gray); margin-top: 8px; }
+/*Banner*/
+.banner-heading h1 { font-size: 2.8rem; }
+.banner-heading h2 { font-size: 1.8rem; }
+.banner-search-panel { flex-direction: column; }
+.banner-search { width: 100%; flex-direction: column; }
+.business-category-srh { width: 100%; }
+.postcode-srh { width: 100%; }
+.postcode-srh { border-top: 1px solid var(--light-gray); border-left: 0; }
+.business-category-srh, .postcode-srh { padding: 15px 20px 8px 20px; }
+.business-category-srh .form-control, .postcode-srh .form-control { height: 38px; }
+.banner-search-btn { margin-left: 0; width: 100%; margin-top: 15px; }
+.banner-search-btn .btn { height: 54px; }
+.main-banner { min-height: 415px; }
+/*Directory*/
+.dir-blk { margin-top: 0; }
+.fea-col { padding-left: 0; text-align: center; }
+.dir-features-inner { padding: 15px; }
+.fea-icon { width: 100%; position: relative; top: 0; display: inline-block; margin: auto; text-align: center; margin-bottom: 15px; }
+.fea-icon img { max-width: 50px; }
+.fea-col h2::after { margin: auto; right: 0; }
+.fea-col.line { margin-bottom: 13px; border-bottom: 1px solid var(--light-gray); padding-bottom: 10px; }
+/*footer*/
+.custom_select_block, .footer_links { -webkit-column-count: 2; -moz-column-count: 2; column-count: 2; }
+/*Add Listing*/
+.membership ul li { max-width: 100%; flex: 0 0 100%; }
+.membership-top { padding: 15px 20px; }
+.btn-field { margin-bottom: -35px; }
+.membership-content { padding: 40px 20px 15px; }
+/*deatil page css start*/
+.dt-icon { padding-left: 25px; }
+.dt-content h2 { font-size: 1.8rem; line-height: 1.8rem; }
+.detail-tab.nav-tabs .nav-link { padding: 0.875rem 2.125rem; }
+.tab-content ul { column-count: 1; }
+.tab-content ul li { padding: 0 0 12px 10px; }
+.detail-tab.nav-tabs .nav-link { padding: 10px 2px; font-size: 1rem; }
+.ft-social a { line-height: 31px; width: 31px; }
+.dt-img img { height: 240px; }
+/*deatil page css End*/
+
+/*My Account Dashboard  Page CSS Start*/
+.login-user .top-login-signup { top: -8px; }
+.login-user .header-shrink .top-login-signup { top: -9px; }
+.login-user .top-login-signup { right: 130px; }
+/*My Account Dashboard  Page CSS End*/
+/*Add Listing Form  Page CSS Start*/
+.opening-col { margin-bottom: 15px; }
+.add-listing.form-sec { padding: 20px; }
+/*Add Listing Form  Page CSS End*/
+
+
+/*Images Gallery page css start*/
+.upload-imgs ul li { width: 50%; }
+/*Images Gallery page css End*/
+
+
+/*Featured listing Page css Start*/
+.listing-search-inner { flex-direction: column; }
+.search-list { width: 100%; flex-direction: column; }
+.search-list .form-control { margin-right: 0; margin-bottom: 15px; }
+.listing-btn { max-width: 100%; width: 100%; margin-bottom: 10px; }
+.listing-heading { flex-direction: column; }
+.listing-heading h1 { margin-bottom: 18px; }
+.listing-detail { width: 100%; flex-direction: column; }
+.listing-pic { width: 100%; margin-bottom: 15px; }
+.listing-info { width: 100%; padding: 0; }
+.featured-listing { padding: 15px; }
+.listing-contact .contact_for_product { flex-wrap: wrap; }
+.listing-contact .contact_for_product li { width: 48%; }
+.filter-option { padding-bottom: 0px; }
+/*Featured listing Page css End*/
+
+/*----------Conatct page CSS Start----------*/
+.contact-info-box ul li i {
+	width: 44px;
+	height: 44px;
+	line-height: 44px;
+}
+.contact-info-box ul li span{padding-top: 0;}
+.white-shad {
+	padding: 24px 20px;
+}
+.contact-info-box ul li i{margin-right: 15px;}
+/*----------Conatct page CSS End----------*/
+}
